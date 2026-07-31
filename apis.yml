@@ -1,7 +1,22 @@
 aid: novome
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novome.png
 name: Novome
-description: Novome is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Novome Biotechnologies is a DCVC-backed biotechnology company based in South San Francisco
+  developing genetically engineered microbial medicines (GEMMs) - live bacterial therapeutics designed to
+  colonize the gut and treat chronic conditions such as enteric hyperoxaluria and other GI and metabolic
+  diseases. As a therapeutics developer, Novome is a research-and-drug-development organization rather than
+  a software or API provider; the enrichment pass found no public developer, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/novome/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +26,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Microbiome
+- Synthetic Biology
+- Pharmaceuticals
+- Life Sciences
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: No API surface. Domain novomebio.com resolves to a WPEngine IP but returns "Site
+    Not Configured" (404); novome.com does not connect. No OpenAPI, docs, developer portal,
+    or /.well-known surface found. Biotech therapeutics company, not a software/API provider.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
